@@ -18,8 +18,8 @@ const generarJWT = (uid, name) => {
                 reject(err);
             } else {
 
-                resolve(token);
                 //todo bien
+                resolve(token);
             }
         });
     });
